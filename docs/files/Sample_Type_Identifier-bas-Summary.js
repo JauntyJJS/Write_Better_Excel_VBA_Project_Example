@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:Sample_Type_Identifier.bas","Sample_Type_Identifier.bas");NDSummary.OnSummaryLoaded("File:Sample_Type_Identifier.bas",[["Visual Basic","VisualBasic"]],[["Functions","Function"],["Groups","Group"]],[[5,0,1,"Functions","Functions"],[6,0,0,"Is_EQC","Is_EQC"]]);

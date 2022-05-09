@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("is_",["Function"],[["Is_EQC",,[[,,,,0,"File:Sample_Type_Identifier.bas:Is_EQC"]]],["Is_EQC_Test",,[[,,,,0,"File:Sample_Type_Identifer_Test.bas:Is_EQC_Test"]]]]);

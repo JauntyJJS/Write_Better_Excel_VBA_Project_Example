@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:Sample_Type_Identifer_Test.bas",{2:"<div class=\"NDToolTip TFunction LVisualBasic\"><div id=\"NDPrototype2\" class=\"NDPrototype\"><div class=\"PSection PPlainSection\">Public Sub Is_EQC_Test()</div></div><div class=\"TTSummary\">Function used to test if the function Sample_Type_Identifier.Is_EQC is working</div></div>"});
