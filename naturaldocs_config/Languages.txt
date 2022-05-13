@@ -9,10 +9,7 @@
 # Ignored Extensions
 # ------------------------------------------------------------------------
 
-# If you'd like to prevent certain file extensions from being scanned by
-# Natural Docs, you can do it like this:
-#
-# Ignore Extensions: [extension] [extension] ...
+Ignore Extensions: frx cls
 
 
 # Languages
@@ -20,6 +17,8 @@
 # The syntax reference is after the definitions.
 
 Language: Excel VBA
+
+   Extensions: bas doccls frm
 
    Line Comment: ''
    Line Extender: _

@@ -1,7 +1,10 @@
 Attribute VB_Name = "Sample_Type_Identifier"
+Attribute VB_Description = "Identify the sample type for a given input string."
+'@ModuleDescription("Identify the sample type for a given input string.")
 Option Explicit
 
 '@Folder("QC_Sample_Type_Identification")
+'@Description("Check is the input string (sample name) is an EQC.")
 
 '' Function: Is_EQC
 ''
@@ -31,6 +34,7 @@ Option Explicit
 ''    Next
 '' ---
 Public Function Is_EQC(ByVal FileName As String) As Boolean
+Attribute Is_EQC.VB_Description = "Check is the input string (sample name) is an EQC."
     Dim NonLettersRegEx As RegExp
     Set NonLettersRegEx = New RegExp
     Dim EQCRegEx As RegExp
@@ -44,4 +48,3 @@ Public Function Is_EQC(ByVal FileName As String) As Boolean
     Is_EQC = EQCRegEx.Test(OnlyLettersText)
     
 End Function
-

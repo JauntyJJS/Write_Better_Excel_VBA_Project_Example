@@ -1,1 +1,1 @@
-﻿NDSummary.OnToolTipsLoaded("File:Utilities.bas",{4:"<div class=\"NDToolTip TFunction LVisualBasic\"><div id=\"NDPrototype4\" class=\"NDPrototype\"><div class=\"PSection PPlainSection\">Public Function Get_Folder() As String</div></div><div class=\"TTSummary\">Get the file path of a folder selected by the user.</div></div>"});
+﻿NDSummary.OnToolTipsLoaded("File:Utilities.bas",{6:"<div class=\"NDToolTip TFunction LExcelVBA\"><div class=\"TTSummary\">Get the file path of a folder selected by the user.</div></div>"});

@@ -8,13 +8,12 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="Functions"></a><a name="Topic5"></a><div class="CTopic TGroup LVisualBasic first">
+<a name="Functions"></a><a name="Topic3"></a><div class="CTopic TGroup LExcelVBA first">
  <div class="CTitle">Functions</div>
 </div>
 
-<a name="Is_EQC"></a><a name="Topic6"></a><div class="CTopic TFunction LVisualBasic last">
+<a name="Is_EQC"></a><a name="Topic4"></a><div class="CTopic TFunction LExcelVBA last">
  <div class="CTitle">Is_EQC</div>
- <div id="NDPrototype6" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Public Function Is_EQC(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PModifierQualifier first">ByVal FileName&nbsp;</td><td class="PType">As&nbsp;</td><td class="PName last">String</td></tr></table></td><td class="PAfterParameters">) As Boolean</td></tr></table></div></div>
  <div class="CBody"><div class="CHeading">Description</div><p>Check is the input string (sample name) is an EQC.</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">FileName</td><td class="CDLDefinition"><p>Input string to check if it is an EQC</p></td></tr></table><div class="CHeading">Returns</div><p>A boolean (True or False). Return True if the input string contains &quot;EQC&quot;, &quot;Eqc&quot;, &quot;eqc&quot;</p><div class="CHeading">Examples</div><pre class="CCode">Dim EQCTestArray As Variant<br />Dim arrayIndex As Integer<br /><br />EQCTestArray = Array(<span class="SHString">&quot;EQC&quot;</span>, <span class="SHString">&quot;001_EQC_TQC prerun 01&quot;</span>)<br /><br />For arrayIndex = <span class="SHNumber">0</span> To UBound(EQCTestArray) - LBound(EQCTestArray)<br />    Debug.Print Sample_Type_Identifier.Is_EQC(CStr(EQCTestArray(arrayIndex))) &amp; <span class="SHString">&quot;: &quot;</span> &amp; _<br />                EQCTestArray(arrayIndex)<br />Next</pre></div>
 </div>
 
