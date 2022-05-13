@@ -1,6 +1,9 @@
 Attribute VB_Name = "Utilities"
+Attribute VB_Description = "Functions used commonly in this project."
+'@ModuleDescription("Functions used commonly in this project.")
 Option Explicit
 '@Folder("Utilities Functions")
+'@Description("Get the file path of a folder selected by the user.")
 
 '' Function: Get_Folder
 ''
@@ -18,6 +21,7 @@ Option Explicit
 '' Returns:
 ''    Returns the file path of a folder selected by the user
 Public Function Get_Folder() As String
+Attribute Get_Folder.VB_Description = "Get the file path of a folder selected by the user."
     'https://stackoverflow.com/questions/26392482/vba-excel-to-prompt-user-response-to-select-folder-and-return-the-path-as-string
     Dim Folder As FileDialog
     Dim Selected_Item As String

@@ -1,4 +1,6 @@
 Attribute VB_Name = "Sample_Type_Identifer_Test"
+Attribute VB_Description = "Test units for Sample_Type_Identifier."
+'@ModuleDescription("Test units for Sample_Type_Identifier.")
 Option Explicit
 Option Private Module
 
@@ -23,6 +25,7 @@ Public Sub ModuleCleanup()
 End Sub
 
 '@TestMethod("Get QC Sample Type")
+'@Description("Test if Sample_Type_Identifier.Is_EQC is working")
 
 '' Function: Is_EQC_Test
 ''
@@ -39,6 +42,7 @@ End Sub
 '' True to all entries in EQCTestArray
 ''
 Public Sub Is_EQC_Test()
+Attribute Is_EQC_Test.VB_Description = "Test if Sample_Type_Identifier.Is_EQC is working"
     On Error GoTo TestFail
     
     Dim EQCTestArray As Variant
@@ -60,4 +64,3 @@ TestExit:
 TestFail:
     Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
 End Sub
-

@@ -1,7 +1,10 @@
 Attribute VB_Name = "Export_VBA"
+Attribute VB_Description = "Export all VBA source codes."
+'@ModuleDescription("Export all VBA source codes.")
 Option Explicit
 '@Folder("Export VBA Source Code Functions")
 '@IgnoreModule IntegerDataType
+'@Description("Export all VBA source codes to a user selected folder.")
 
 '' Function: Export_Visual_Basic_Code
 ''
@@ -22,6 +25,7 @@ Option Explicit
 '' Do note that files will be overwritten without warning.
 ''
 Public Sub Export_Visual_Basic_Code()
+Attribute Export_Visual_Basic_Code.VB_Description = "Export all VBA source codes to a user selected folder."
     'https://gist.github.com/steve-jansen/7589478
     Const Module As Integer = 1
     Const ClassModule As Integer = 2
@@ -75,4 +79,3 @@ Public Sub Export_Visual_Basic_Code()
     MsgBox "Successfully exported " & CStr(Count) & " VBA files to " & Directory
 
 End Sub
-
