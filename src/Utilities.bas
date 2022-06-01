@@ -6,6 +6,9 @@ Option Explicit
 '@Description("Get the file path of a folder selected by the user.")
 
 '' Function: Get_Folder
+'' --- Code
+''  Public Function Get_Folder() As String
+'' ---
 ''
 '' Description:
 ''

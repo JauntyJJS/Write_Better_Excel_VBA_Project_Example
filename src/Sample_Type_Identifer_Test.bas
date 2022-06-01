@@ -28,6 +28,9 @@ End Sub
 '@Description("Test if Sample_Type_Identifier.Is_EQC is working")
 
 '' Function: Is_EQC_Test
+'' --- Code
+''  Public Sub Is_EQC_Test()
+'' ---
 ''
 '' Description:
 ''

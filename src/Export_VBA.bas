@@ -7,6 +7,9 @@ Option Explicit
 '@Description("Export all VBA source codes to a user selected folder.")
 
 '' Function: Export_Visual_Basic_Code
+'' --- Code
+''  Public Sub Export_Visual_Basic_Code()
+'' ---
 ''
 '' Description:
 ''

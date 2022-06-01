@@ -1,1 +1,1 @@
-﻿NDFramePage.OnPageTitleLoaded("File:Utilities.bas","Utilities.bas");NDSummary.OnSummaryLoaded("File:Utilities.bas",[["Excel VBA","ExcelVBA"]],[["Functions","Function"],["Groups","Group"]],[[5,0,1,"Functions","Functions"],[6,0,0,"Get_Folder","Get_Folder"]]);
+﻿NDFramePage.OnPageTitleLoaded("File:Utilities.bas","Utilities.bas");NDSummary.OnSummaryLoaded("File:Utilities.bas",[["Excel VBA","ExcelVBA"]],[["Functions","Function"],["Groups","Group"]],[[5,0,1,"Functions","Functions"],[9,0,0,"Get_Folder","Get_Folder"]]);

@@ -1,1 +1,1 @@
-﻿NDFramePage.OnPageTitleLoaded("File:Sample_Type_Identifier.bas","Sample_Type_Identifier.bas");NDSummary.OnSummaryLoaded("File:Sample_Type_Identifier.bas",[["Excel VBA","ExcelVBA"]],[["Functions","Function"],["Groups","Group"]],[[3,0,1,"Functions","Functions"],[4,0,0,"Is_EQC","Is_EQC"]]);
+﻿NDFramePage.OnPageTitleLoaded("File:Sample_Type_Identifier.bas","Sample_Type_Identifier.bas");NDSummary.OnSummaryLoaded("File:Sample_Type_Identifier.bas",[["Excel VBA","ExcelVBA"]],[["Functions","Function"],["Groups","Group"]],[[3,0,1,"Functions","Functions"],[2,0,0,"Is_EQC","Is_EQC"]]);

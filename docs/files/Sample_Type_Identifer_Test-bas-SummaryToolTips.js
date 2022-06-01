@@ -1,1 +1,1 @@
-﻿NDSummary.OnToolTipsLoaded("File:Sample_Type_Identifer_Test.bas",{2:"<div class=\"NDToolTip TFunction LExcelVBA\"><div class=\"TTSummary\">Function used to test if the function Sample_Type_Identifier.Is_EQC is working</div></div>"});
+﻿NDSummary.OnToolTipsLoaded("File:Sample_Type_Identifer_Test.bas",{});

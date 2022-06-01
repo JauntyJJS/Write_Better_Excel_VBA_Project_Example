@@ -7,6 +7,9 @@ Option Explicit
 '@Description("Check is the input string (sample name) is an EQC.")
 
 '' Function: Is_EQC
+'' --- Code
+''  Public Function Is_EQC(ByVal FileName As String) As Boolean
+'' ---
 ''
 '' Description:
 ''
